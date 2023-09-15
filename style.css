@@ -123,12 +123,14 @@ input[type="checkbox"] {
 
 .section1 {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0);
-    height: 500px;
-    /*border-top: 2px solid orange;*/
+    min-height: 500px;
+
+    font-size: large;
+    gap: 20px;
+    padding: 50px;
 }
 
 
@@ -136,17 +138,19 @@ input[type="checkbox"] {
 .box-text {
     background-color: rgb(0, 0, 0);
     display: flex;
-    justify-content: center;
-    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: column;
     gap: 15px;
-    max-width: 50%;
+    max-width: 60%;
+
 }
 
 .about-me p {
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 }
 
 
@@ -167,10 +171,11 @@ input[type="checkbox"] {
     align-items: center;
     gap: 50px;
     width: 100%;
-    height: 707px;
-    background: linear-gradient(black, #2E472E);
-    /*border-top: 2px solid orange;*/
+    min-height: 707px;
+    background: linear-gradient(rgb(0, 0, 0), #2E472E);
+
     max-height: 100%;
+    padding: 50px;
 
 }
 
@@ -178,7 +183,8 @@ input[type="checkbox"] {
     width: 300px;
     height: 460px;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 10px;
+    border: 1px solid #ECECEC;
     background-color: rgb(0, 0, 0);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
     display: flex;
@@ -198,6 +204,7 @@ input[type="checkbox"] {
     padding: 20px;
     gap: 10px;
     font-size: 15px;
+    gap: 40px;
 }
 
 .card-footer {
@@ -212,39 +219,40 @@ input[type="checkbox"] {
 
 
 
-
-
-
-
-
-
-
 .section3 {
     background-color: rgb(0, 0, 0);
-    /*border-top: 2px solid orange;*/
+    min-height: 607px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.conteiner-skills {
+    background-color: pink;
+    min-height: 80%;
+    max-width: 80%;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.box {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    height: 500px;
-    overflow: hidden;
+    font-size: x-small;
+    gap: 20px;
 }
 
-.box-skills {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-
-}
-
-.box {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-
-.boxs {}
 
 /*----------------------------------------------------------<Main/>--------------------------------------------------*/
 
