@@ -272,12 +272,12 @@ input[type="checkbox"] {
 footer {
     background-color: #2E472E;
     background: linear-gradient(black, #2E472E);
-    height: 100px;
+    height: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     /*border-top: 2px solid orange;*/
-    gap: 250px;
+    gap: 20px;
 }
 
 footer p{
@@ -378,13 +378,18 @@ footer a {
     }
 
 
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
 }
 
 
-footer {
-    display: flex;
-    justify-content: 
-}
+
 
 
 /*----------------------------------------------------------<@media/>--------------------------------------------------*/
