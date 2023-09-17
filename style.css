@@ -274,14 +274,29 @@ footer {
     background: linear-gradient(black, #2E472E);
     height: 100px;
     display: flex;
-    justify-content: end;
+    justify-content: space-evenly;
     align-items: center;
     /*border-top: 2px solid orange;*/
+    gap: 250px;
+}
+
+footer p{
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 footer a {
     margin-right: 50px;
     display: flex;
+    text-decoration: none;
+    color: #ECECEC;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 /*----------------------------------------------------------<Footer/>--------------------------------------------------*/
@@ -365,6 +380,11 @@ footer a {
 
 }
 
+
+footer {
+    display: flex;
+    justify-content: 
+}
 
 
 /*----------------------------------------------------------<@media/>--------------------------------------------------*/
