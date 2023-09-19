@@ -127,8 +127,6 @@ input[type="checkbox"] {
     align-items: center;
     background-color: rgb(0, 0, 0);
     min-height: 500px;
-
-    font-size: large;
     gap: 20px;
     padding: 50px;
 }
@@ -144,6 +142,7 @@ input[type="checkbox"] {
     flex-direction: column;
     gap: 15px;
     max-width: 60%;
+    font-size: large;
 
 }
 
@@ -219,7 +218,7 @@ input[type="checkbox"] {
 }
 
 .conteiner-section2 a :hover {
-    background-color: #2E472E;
+    background-color: #0000008d;
     
 }
 
@@ -235,36 +234,44 @@ input[type="checkbox"] {
     background-color: rgb(0, 0, 0);
     width: 100%;
     min-height: 607px;
-    flex-wrap: wrap;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.conteiner-skills {
-    background-color: pink;
-    min-height: 80%;
-    max-width: 80%;
-    padding: 20px;
-    display: flex;
+    flex-direction: column; 
+    padding-top: 50px;
     gap: 20px;
-    
 }
 
-.box {
-    background-color: orange;
-    width: 200px;
-    height: 200px;
+.section3-bigbox {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
     padding: 20px;
+    font-size: small;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.section3-smallbox {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
-    font-size: x-small;
-    gap: 20px;
+    gap: 50px;
+  
+   padding: 20px;
+
 }
+
+.small {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+
 
 
 /*----------------------------------------------------------<Main/>--------------------------------------------------*/
@@ -278,35 +285,41 @@ input[type="checkbox"] {
 /*----------------------------------------------------------<Footer>--------------------------------------------------*/
 
 footer {
-    
     background: linear-gradient(rgb(0, 0, 0), #2E472E);
     width: 100%;
     height: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border-top: 2px solid orange;
-    gap: 20px;
-    padding: 20px;
+    padding: 40px;
+    border-top: 1px solid #ECECEC;
 }
 
 footer p{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;    
+    font-family: 'Cinzel', serif;  
 }
+
+.return-home a :hover {
+    background-color: #0000008d;
+    
+}
+
+footer button{
+    padding: 10px;
+    width: 150px;
+     border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.174);
+    border: none;
+    border: 1px solid #ECECEC;
+    color: #ECECEC;
+}
+
+
 .footer-links {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-
-footer a {
-    margin-right: 50px;
-    display: flex;
-    text-decoration: none;
-    color: #ECECEC;
-    font-size: 20px;
-    font-family: 'Cormorant Garamond', serif;
+    gap: 20px;
 }
 
 /*----------------------------------------------------------<Footer/>--------------------------------------------------*/
@@ -318,7 +331,7 @@ footer a {
 
 
 /*----------------------------------------------------------<@media>--------------------------------------------------*/
-@media (max-width:500px) {
+@media (max-width:600px) {
 
 
     html,
@@ -328,7 +341,7 @@ footer a {
 
     .Headertop {
         flex-direction: column;
-        gap: 25px;
+        gap: 30px;
         height: 23%;
         padding: 20px;
     }
@@ -396,6 +409,11 @@ footer a {
         gap: 30px;
     }
 
+
+    .section3-bigbox {
+        display: flex;
+        justify-content: start;
+    }
 
 }
 
