@@ -131,6 +131,10 @@ input[type="checkbox"] {
     padding: 50px;
 }
 
+.section1 h2 {
+    font-family: 'Cinzel', serif; 
+    font-size:large;
+}
 
 
 .box-text {
@@ -217,9 +221,13 @@ input[type="checkbox"] {
    color: #ECECEC;
 }
 
+.section2 h2 {
+    font-family: 'Cinzel', serif; 
+    font-size:large;
+}
+
 .conteiner-section2 a :hover {
-    background-color: #0000008d;
-    
+    background-color: #0000008d;    
 }
 
 
@@ -242,6 +250,11 @@ input[type="checkbox"] {
     gap: 20px;
 }
 
+.section3 h3 {
+    font-family: 'Cinzel', serif; 
+    font-size: large;
+}
+
 .section3-bigbox {
     width: 80%;
     height: 60%;
@@ -252,8 +265,6 @@ input[type="checkbox"] {
     font-size: small;
     flex-wrap: wrap;
     gap: 10px;
-   
-    background: linear-gradient(rgb(0, 0, 0), #2E472E);
 }
 
 .section3-smallbox {
